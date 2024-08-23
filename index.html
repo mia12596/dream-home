@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dream home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/078d194c95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,7 +19,7 @@
         class="bg-[linear-gradient(0deg,_rgb(255,255,255),_rgba(255,255,255,0)_100%)] container mx-w-[1440px] mx-auto">
         <nav class="flex justify-between items-center p-10">
             <div class="flex space-x-3 items-center">
-                <div class="bg-[rgb(171,239,95)] h-7 w-7 rounded-[50%] flex justify-center items-center">
+                <div class="bg-[rgb(171,239,95)] h-8 w-8 rounded-[50%] flex justify-center items-center">
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
@@ -30,16 +34,16 @@
                     <h1 class="font-Manrope text-[2rem]">Rinterio</h1>
                 </div>
             </div>
-            <div class="hidden md:flex">
+            <div class="hidden lg:flex">
                 <ul class="flex space-x-3 text-[16px]">
                     <li class=><a href="Home">Home</a></li>
                     <li><a href="services">Services</a></li>
                     <li><a href="Portfolio">Portfolio</a></li>
                     <li><a href="blogs">Blogs</a></li>
-                    <li><a href="contact us">contact us</a></li>
+                    <li class=""><a class="" href="contact us">contact us</a></li>
                 </ul>
             </div>
-            <div class="hidden sm:flex items-center space-x-3 ">
+            <div class="hidden sm:flex items-center space-x-10 ">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
@@ -55,9 +59,9 @@
                     </svg>
 
                 </div>
-                <div class="hidden sm:flex items-center bg-[rgb(171,239,95)] px-5 py-2 space-x-2 rounded-md  ">
+                <div class="hidden sm:flex items-center bg-[rgb(171,239,95)] px-5 py-2 space-x-2 rounded-full  ">
                     <button class="font-bold text-[20px]">Book Consult</button>
-                    <div class="bg-black h-7 w-7 rounded-[50%] text-white hidden sm:flex items-center justify-center  ">
+                    <div class="bg-black h-8 w-8 rounded-[50%] text-white hidden sm:flex items-center justify-center  ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -69,8 +73,8 @@
                 </div>
 
             </div>
-            <p class="sm:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke-width="1.5" stroke="currentColor" class="size-6">
+            <p class="sm:hidden bg-white h-8 w-8 rounded-[50%]"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
@@ -95,7 +99,7 @@
                 <div class="flex items-center bg-green-100 px-5 py-2 space-x-2 mt-10 rounded-full  ">
                     <button class="font-bold text-[20px]">View Details</button>
                     <div
-                        class="bg-[rgb(171,239,95)] h-5 w-5 rounded-[50%] text-black sm:flex items-center justify-center  ">
+                        class="bg-[rgb(171,239,95)] h-8 w-8 rounded-[50%] text-black sm:flex items-center justify-center  ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -139,21 +143,23 @@
                         </div>
                         <div>
                             <div
-                                class="flex items-center space-x-5 bg-[rgb(255,255,255)] px-4 py-1 border-2 mt-3 rounded-md">
+                                class="flex items-center space-x-5 bg-[rgb(255,255,255)] px-4 py-6   shadow-lg mt-3 rounded-md">
                                 <img src="assets/commercial.png" alt="">
                                 <div>
-                                    <h1>Commercial</h1>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                    <h1 class="text-2xl font-semibold">Commercial</h1>
+                                    <p class="mt-2">The barn house captivates with its blend of rustic charm and modern.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div
-                                class="flex items-center space-x-5 bg-[rgb(255,255,255)] px-4 py-1 border-2 mt-3 rounded-md">
+                                class="flex items-center space-x-5 bg-[rgb(255,255,255)] px-4 py-6   shadow-lg border-2 mt-3 rounded-md">
                                 <img src="assets/residential.png" alt="">
                                 <div>
-                                    <h1>Residential</h1>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                    <h1 class="text-2xl font-semibold">Residential</h1>
+                                    <p class="mt-2">The barn house captivates with its blend of rustic charm and modern.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -170,14 +176,14 @@
 
             <div class=" flex flex-col items-center  justify-center">
                 <div
-                    class="flex  space-x-1 bg-[rgb(255,255,255)] border-2 rounded-full w-36 mt-4 px-4 py-1 justify-center items-center ">
+                    class="flex  space-x-1 bg-[rgb(255,255,255)] border-2 rounded-full w-40 mt-4 px-4 py-1 justify-center items-center ">
                     <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
 
                         </svg>
-                    <h1 class="text-[10px] font-bold">How We Works</h1>
+                    <h1 class="text-[12px] font-bold">How We Works</h1>
                     </p>
 
                 </div>
@@ -216,7 +222,7 @@
             </div>
 
         </section>
-        <section class="p-20 container mx-w-[1440px] mx-auto   ">
+        <section class="p-20 container mx-w-[1440px] mx-auto shadow-inner   ">
 
 
             <div class="container mx-auto py-12">
@@ -241,7 +247,8 @@
                 <div class="grid lg:grid-cols-3 grid-cols-1 gap-6 mt-8">
 
                     <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                        <img src="assets/img1.png" alt="Portfolio Image" class="w-full h-48 object-cover">
+                        <img src="assets/img1.png" alt="Portfolio Image"
+                            class="w-full h-48 object-cover border-4 border-dashed">
                     </div>
 
                     <div class="bg-white rounded-lg overflow-hidden  p-4">
@@ -251,7 +258,7 @@
                         <button class="mt-4 inline-flex items-center text-green-600 font-semibold hover:text-green-800">
                             <h1>View details</h1>
                             <p>
-                            <div class="bg-[rgb(171,239,95)] h-5 w-5 rounded-[50%] flex justify-center items-center">
+                            <div class="bg-[rgb(171,239,95)] h-6 w-6 rounded-[50%] flex justify-center items-center">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -279,7 +286,8 @@
                     </div>
 
                     <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                        <img src="assets/img4.png" alt="Portfolio Image" class="w-full h-48 object-cover">
+                        <img src="assets/img4.png" alt="Portfolio Image"
+                            class="w-full h-48 object-cover border-4 border-dashed">
                     </div>
                     <div class="bg-white rounded-lg overflow-hidden p-4">
                         <h3 class="text-2xl font-bold">Commercial</h3>
@@ -288,7 +296,7 @@
                         <button class="mt-4 inline-flex items-center text-green-600 font-semibold hover:text-green-800">
                             <h1>View details</h1>
 
-                            <div class="bg-[rgb(171,239,95)] h-5 w-5 rounded-[50%] flex justify-center items-center">
+                            <div class="bg-[rgb(171,239,95)] h-6 w-6 rounded-[50%] flex justify-center items-center">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -317,7 +325,9 @@
         <section class="container mx-w-[1440px] mx-auto p-20">
             <div class="text-center">
                 <h1 class="font-bold text-3xl">Meet with our consultant</h1>
-                <p>consultant is a person who's an expert in a particular field who gives professional advice to
+                <p class="mt-5 text-gray-400">consultant is a person who's an expert in a particular field who gives
+                    professional
+                    advice to
                     individuals and businesses in their area of expertise</p>
             </div>
             <div>
@@ -325,9 +335,9 @@
                     <div class="">
                         <img src="assets/person1.jpg" alt="" class="rounded-md h-56 mt-10 bg-white shadow-lg">
                         <p class="text-2xl font-bold mt-2">Hasan Zaman</p>
-                        <p class="text-gray-200 mt-2">Business Analyst</p>
+                        <p class="text-gray-400 mt-2">Business Analyst</p>
 
-                        <div class="flex lg:justify-end mt-10 ">
+                        <div class="flex lg:justify-end mt-16 ">
                             <button class="bg-green-300 px-4 py-2 text-white hover:text-green-500 rounded-md flex">
                                 <p class="">Details</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -343,8 +353,8 @@
                     <div>
                         <img src="assets/person2.jpg" alt="" class="rounded-md h-56 mt-10 bg-white shadow-lg">
                         <p class="text-2xl font-bold mt-2">Md Apu Mia</p>
-                        <p class="text-gray-200 mt-2">Business Analyst</p>
-                        <div class="flex lg:justify-end mt-10 ">
+                        <p class="text-gray-400 mt-2">Business Analyst</p>
+                        <div class="flex lg:justify-end mt-16 ">
                             <button class="bg-green-300 px-4 py-2 text-white hover:text-green-500 rounded-md flex">
                                 <p class="">Details</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -361,8 +371,8 @@
                     <div>
                         <img src="assets/person3.jpg" alt="" class="rounded-md h-56 mt-10 bg-white shadow-lg">
                         <p class="text-2xl font-bold mt-2">Topu Prodan</p>
-                        <p class="text-gray-200 mt-2">Business Analyst</p>
-                        <div class="flex lg:justify-end mt-10 ">
+                        <p class="text-gray-400 mt-2">Business Analyst</p>
+                        <div class="flex lg:justify-end mt-16 ">
                             <button class="bg-green-300 px-4 py-2 text-white hover:text-green-500 rounded-md flex">
                                 <p class="">Details</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -378,8 +388,8 @@
                     <div>
                         <img src="assets/person4.jpg" alt="" class="rounded-md h-56 mt-10 bg-white shadow-lg">
                         <p class="font-bold text-2xl mt-2">Waffi</p>
-                        <p class="text-gray-200 mt-2">Business Analyst</p>
-                        <div class="flex  lg:justify-end mt-10 ">
+                        <p class="text-gray-400 mt-2">Business Analyst</p>
+                        <div class="flex  lg:justify-end mt-16 ">
                             <button class="bg-green-300 px-4 py-2 text-white hover:text-green-500 rounded-md flex">
                                 <p class="">Details</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -396,7 +406,45 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="container mx-w-[1440px] mx-auto mt-10">
+            <div class="text-center">
+                <h1 class="text-3xl font-bold">Our Creative Work</h1>
+                <p class="mt-5 text-gray-400">To design is to conceive, create, sketch out, or invent something. An
+                    architect might design a new apartment building</p>
+            </div>
+            <div class="mt-6">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="assets/latest1.avif" class="w-[100%] lg:w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="assets/latest2.avif" class="w-[100%] lg:w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="assets/latest3.avif" class="w-[100%] lg:w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="assets/latest4.avif" class=" w-[100%] lg:w-full" />
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </section>
         <section class="bg-[url('assets/bg.jpg')] bg-cover  bg-center h-full lg:h-full w-full mt-14">
@@ -428,13 +476,14 @@
                 <form
                     class="grid grid-cols-1 lg:grid-cols-2 gap-2 w-[100%] p-10  lg:w-[50%] container mx-auto mt-5  justify-center items-center">
                     <input class="px-4 py-2 text-start rounded-3xl" type="text" name="" id="" placeholder="first name*">
-                    <input class="px-4 py-2 text-start rounded-3xl" type="text" name="" id="" placeholder="Last name*">
-                    <input class="px-4 py-2 text-start rounded-3xl" type="text" name="" id=""
+                    <input class="px-4 py-2 text-start mt-4 rounded-3xl" type="text" name="" id=""
+                        placeholder="Last name*">
+                    <input class="px-4 py-2 text-start mt-4 rounded-3xl" type="text" name="" id=""
                         placeholder="phone number*">
-                    <input class="px-4 py-2 text-start rounded-3xl" type="text" name="" id=""
+                    <input class="px-4 py-2 text-start mt-4 rounded-3xl" type="text" name="" id=""
                         placeholder="Email Number*">
-                    <textarea class="lg:col-span-2 rounded-2xl " name="" id="" placeholder="write your Message Here"
-                        cols="30" rows="10"></textarea>
+                    <textarea class="lg:col-span-2 mt-4 rounded-2xl " name="" id=""
+                        placeholder="write your Message Here" cols="30" rows="10"></textarea>
 
 
 
@@ -442,7 +491,7 @@
                 <div
                     class="flex justify-center  items-center bg-[rgb(171,239,95)] px-10 py-5 w-[100%] container lg:w-[50%] mx-auto   space-x-2 rounded-full  ">
                     <button class="font-bold text-[20px]  ">Send mail</button>
-                    <div class="bg-black h-5 w-5 rounded-[50%] text-white hidden sm:flex items-center justify-center  ">
+                    <div class="bg-black h-8 w-8 rounded-[50%] text-white  sm:flex items-center justify-center  ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -462,7 +511,7 @@
     <footer class="bg-black h-auto p-10 flex flex-row-col justify-center items-center text-center mt-20">
         <div>
             <div class="flex justify-center  space-x-3 items-center mt-10">
-                <div class="bg-[rgb(171,239,95)] h-5 w-5 rounded-[50%] flex justify-center items-center">
+                <div class="bg-[rgb(171,239,95)] h-8 w-8 rounded-[50%] flex justify-center items-center">
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
@@ -483,21 +532,27 @@
                     sophistication, featuring
                     weathered <br> wood, sleek metal accents.</p>
             </div>
-            <div class="sm:flex items-center justify-center space-x-7 text-gray-200 mt-10">
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="Services">Services</a></li>
-                    <li><a href="portfolio">Portfolio</a></li>
-                    <li><a href="Blogs">blogs</a></li>
-                    <li><a href="Contact Us">Contact Us</a></li>
+            <div class="">
+
+
+                <ul class="text-center space-x-7 mt-8 space-y-2 sm:flex list-none items-center justify-center">
+                    <li class="text-white">Home</li>
+                    <li class="text-white">Services</li>
+                    <li class="text-white">Portfolio</li>
+                    <li class="text-white">Blogs</li>
+                    <li class="text-white">Contact Us</li>
                 </ul>
+
+
+
+
             </div>
             <div>
                 <div class="mt-10 justify-center flex items-center  px-5 py-2 space-x-2 rounded-md  ">
                     <button
                         class="font-bold inline-flex py-3 rounded-full px-5 items-center space-x-2 text-[20px] bg-[rgb(171,239,95)]">Book
                         Consult
-                        <p class="bg-black h-6 w-6 rounded-[50%] text-white  sm:flex items-center justify-center  ">
+                        <p class="bg-black h-8 w-8 rounded-[50%] text-white  sm:flex items-center justify-center  ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
                                 stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
